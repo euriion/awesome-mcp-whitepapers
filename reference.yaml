@@ -1,0 +1,207 @@
+# MCP (Model Context Protocol) 참조 소스 목록
+# 이 파일은 mcptools.yaml의 데이터 수집에 사용된 소스 URL들을 관리합니다.
+# 작성일: 2026-01-19
+
+# =============================================================================
+# 주요 참조 소스 (Primary Sources)
+# =============================================================================
+
+primary_sources:
+  - name: "Awesome MCP Servers (English)"
+    description: "MCP 서버들의 공식 큐레이션 목록 (영문)"
+    url: "https://github.com/punkpeye/awesome-mcp-servers"
+    readme: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README.md"
+    type: "github_repository"
+    language: "en"
+    last_checked: "2026-01-19"
+
+  - name: "Awesome MCP Servers (한국어)"
+    description: "MCP 서버들의 공식 큐레이션 목록 (한국어 번역)"
+    url: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md"
+    readme_raw: "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/main/README-ko.md"
+    type: "github_readme"
+    language: "ko"
+    last_checked: "2026-01-19"
+
+  - name: "Model Context Protocol 공식 사이트"
+    description: "MCP 프로토콜 공식 문서 및 스펙"
+    url: "https://modelcontextprotocol.io/"
+    docs: "https://modelcontextprotocol.io/docs"
+    llm_context: "https://modelcontextprotocol.io/llms-full.txt"
+    type: "official_documentation"
+    language: "en"
+    last_checked: "2026-01-19"
+
+  - name: "MCP Servers Web Directory"
+    description: "웹 기반 MCP 서버 디렉토리 (Glama)"
+    url: "https://glama.ai/mcp/servers"
+    type: "web_directory"
+    language: "en"
+    last_checked: "2026-01-19"
+
+# =============================================================================
+# 공식 MCP 저장소 (Official MCP Repositories)
+# =============================================================================
+
+official_repositories:
+  - name: "Model Context Protocol Organization"
+    description: "MCP 공식 GitHub 조직"
+    url: "https://github.com/modelcontextprotocol"
+    type: "github_organization"
+
+  - name: "MCP Servers (Official)"
+    description: "공식 MCP 서버 구현체들"
+    url: "https://github.com/modelcontextprotocol/servers"
+    type: "github_repository"
+
+  - name: "MCP TypeScript SDK"
+    description: "MCP TypeScript/JavaScript SDK"
+    url: "https://github.com/modelcontextprotocol/typescript-sdk"
+    type: "github_repository"
+
+  - name: "MCP Python SDK"
+    description: "MCP Python SDK"
+    url: "https://github.com/modelcontextprotocol/python-sdk"
+    type: "github_repository"
+
+# =============================================================================
+# 카테고리별 참조 URL (Category-specific References)
+# =============================================================================
+
+category_references:
+  aggregators:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#aggregators"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#aggregators"
+
+  browser_automation:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#browser-automation"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#browser-automation"
+
+  databases:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#databases"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#databases"
+
+  developer_tools:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#developer-tools"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#developer-tools"
+
+  file_systems:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#file-systems"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#file-systems"
+
+  search:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#search"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#search"
+
+  communication:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#communication"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#communication"
+
+  knowledge_memory:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#knowledge--memory"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#knowledge--memory"
+
+  cloud_platforms:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#cloud-platforms"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#cloud-platforms"
+
+  monitoring:
+    section_url: "https://github.com/punkpeye/awesome-mcp-servers#monitoring"
+    section_url_ko: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-ko.md#monitoring"
+
+# =============================================================================
+# 커뮤니티 리소스 (Community Resources)
+# =============================================================================
+
+community_resources:
+  - name: "MCP Discord Server"
+    description: "MCP 커뮤니티 디스코드 서버"
+    url: "https://glama.ai/mcp/discord"
+    type: "discord"
+
+  - name: "MCP Subreddit"
+    description: "MCP 관련 Reddit 커뮤니티"
+    url: "https://www.reddit.com/r/mcp/"
+    type: "reddit"
+
+  - name: "Awesome MCP Clients"
+    description: "MCP 클라이언트 큐레이션 목록"
+    url: "https://github.com/punkpeye/awesome-mcp-clients"
+    type: "github_repository"
+
+  - name: "Glama MCP Clients"
+    description: "MCP 클라이언트 웹 디렉토리"
+    url: "https://glama.ai/mcp/clients"
+    type: "web_directory"
+
+# =============================================================================
+# 튜토리얼 및 가이드 (Tutorials & Guides)
+# =============================================================================
+
+tutorials:
+  - name: "MCP Quick Start Guide"
+    description: "MCP 빠른 시작 가이드"
+    url: "https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart"
+    type: "blog_post"
+    language: "en"
+
+  - name: "Claude Desktop SQLite Setup"
+    description: "Claude 데스크톱 앱에서 SQLite 데이터베이스 사용 설정 가이드"
+    url: "https://youtu.be/wxCCzo9dGj0"
+    type: "video"
+    language: "en"
+
+# =============================================================================
+# 프레임워크 참조 (Framework References)
+# =============================================================================
+
+frameworks:
+  - name: "FastMCP"
+    description: "Python용 고수준 MCP 프레임워크"
+    url: "https://github.com/jlowin/fastmcp"
+    language: "Python"
+
+  - name: "mcp-golang"
+    description: "Go용 타입 안전 MCP 프레임워크"
+    url: "https://github.com/metoro-io/mcp-golang"
+    language: "Go"
+
+  - name: "ModelContextProtocol.NET"
+    description: ".NET 9용 MCP SDK (NativeAOT 호환)"
+    url: "https://github.com/salty-flower/ModelContextProtocol.NET"
+    language: "C#"
+
+  - name: "spring-ai-mcp"
+    description: "Java Spring용 MCP 클라이언트/서버 SDK"
+    url: "https://github.com/spring-projects-experimental/spring-ai-mcp"
+    language: "Java"
+
+  - name: "quarkus-mcp-server"
+    description: "Quarkus용 MCP 서버 SDK"
+    url: "https://github.com/quarkiverse/quarkus-mcp-server"
+    language: "Java"
+
+  - name: "mcp-rs-template"
+    description: "Rust용 MCP CLI 서버 템플릿"
+    url: "https://github.com/linux-china/mcp-rs-template"
+    language: "Rust"
+
+  - name: "sakura-mcp"
+    description: "Scala용 MCP 프레임워크"
+    url: "https://github.com/mullerhai/sakura-mcp"
+    language: "Scala"
+
+# =============================================================================
+# 메타데이터 (Metadata)
+# =============================================================================
+
+metadata:
+  version: "1.0.0"
+  created_at: "2026-01-19"
+  updated_at: "2026-01-19"
+  maintainer: "euriion"
+  license: "MIT"
+  notes:
+    - "이 파일은 mcptools.yaml과 함께 관리됩니다"
+    - "정기적으로 소스 URL의 유효성을 확인해주세요"
+    - "새로운 소스 발견 시 이 파일에 추가해주세요"

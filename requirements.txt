@@ -1,0 +1,4 @@
+# MCP Tools 프로젝트 의존성
+# Python 3.8 이상 필요
+
+PyYAML>=6.0
