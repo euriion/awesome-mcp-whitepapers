@@ -17,6 +17,7 @@
   - [File Systems](#📂-file-systems)
   - [Search](#🔎-search)
   - [Communication](#💬-communication)
+  - [Payments](#💳-payments)
   - [Knowledge & Memory](#🧠-knowledge--memory)
   - [Cloud Platforms](#☁️-cloud-platforms)
   - [Monitoring](#📊-monitoring)
@@ -147,6 +148,13 @@
 | [discord-mcp](https://github.com/v-3/mcp-discord) | Discord 서버와 상호작용하는 MCP 서버 | 🔑 |
 | [gmail-mcp](https://github.com/GongRzhe/Gmail-MCP-Server) | Gmail과 상호작용하는 MCP 서버 | 🔑 |
 | [teams-mcp](https://github.com/aaronpowell/mcp-server-teams) | Microsoft Teams와 상호작용하는 MCP 서버 | 🔑 |
+### 💳 Payments
+
+> 에이전트의 결제 준비, 상태 및 영수증 조회를 위한 로컬 도구
+
+| 이름 | 설명 | API |
+|------|------|:---:|
+| [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) | Apple Silicon macOS·Node.js 24 전용 로컬 stdio 결제 도구: x402 제안 확인, 제한된 결제 준비, 상태·영수증 조회. 소유자 승인·정책 적용, 네트워크·서비스 수수료 별도 | - |
 ### 🧠 Knowledge & Memory
 
 > 노트, 문서 관리 등 지식 관리 도구와 상호작용하기 위한 서버들
@@ -241,6 +249,6 @@ MIT License
 </p>
 
 <!-- 
-자동 생성됨: 2026-01-19 17:12:51
-총 서버 수: 71개
+자동 생성됨: 2026-10-27 00:38:40
+총 서버 수: 72개
 -->

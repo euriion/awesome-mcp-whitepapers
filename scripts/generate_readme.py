@@ -64,6 +64,11 @@ CATEGORY_META = {
         "title": "Communication",
         "description": "이메일, 메시징 등 커뮤니케이션 도구와 상호작용하기 위한 서버들"
     },
+    "payments": {
+        "icon": "💳",
+        "title": "Payments",
+        "description": "에이전트의 결제 준비, 상태 및 영수증 조회를 위한 로컬 도구"
+    },
     "knowledge_memory": {
         "icon": "🧠",
         "title": "Knowledge & Memory",
@@ -184,7 +189,7 @@ def generate_readme(mcptools: dict, reference: dict) -> str:
     # 카테고리 목록 (순서대로)
     category_order = [
         "aggregators", "browser_automation", "databases", "developer_tools",
-        "file_systems", "search", "communication", "knowledge_memory",
+        "file_systems", "search", "communication", "payments", "knowledge_memory",
         "cloud_platforms", "monitoring", "utilities"
     ]
     
@@ -314,7 +319,7 @@ def main():
     # 통계 출력
     category_order = [
         "aggregators", "browser_automation", "databases", "developer_tools",
-        "file_systems", "search", "communication", "knowledge_memory",
+        "file_systems", "search", "communication", "payments", "knowledge_memory",
         "cloud_platforms", "monitoring", "utilities"
     ]
     
